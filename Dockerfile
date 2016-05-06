@@ -14,4 +14,5 @@ RUN \
 	mkdir -p /opt/oracle && \
 	unzip "/tmp/instantclient*.zip" -d /opt/oracle && \
 	ln -s $ORACLE_HOME/libclntsh.so.12.1 $ORACLE_HOME/libclntsh.so && \
-	pip install cx_Oracle
+	/env/bin/pip install cx_Oracle
+
