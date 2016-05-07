@@ -18,3 +18,6 @@ pytz==2015.7
 six==1.10.0
 SQLAlchemy==1.0.9
 Werkzeug==0.11.1
+requests=2.10.0
+nose=1.3.7
+
